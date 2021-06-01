@@ -8,6 +8,7 @@
 		<version>2.5.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+	<packaging>war</packaging>
 	<groupId>com.example</groupId>
 	<artifactId>SpringEmployee</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
@@ -65,6 +66,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>Employee</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
